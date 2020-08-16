@@ -1,0 +1,30 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 10px;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  max-width: 100;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: #fafafafa;
+  font-family: 'Arial', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+stored_credentials.get("npsso") if stored_credentials else None
